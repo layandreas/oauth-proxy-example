@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "oauth-template"
+version = "0.1.0"
+description = ""
+authors = ["Andreas Lay <andreas.lay@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+streamlit = "^1.22.0"
+pyjwt = "^2.7.0"
+cryptography = "^40.0.2"
+supervisor = "^4.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
